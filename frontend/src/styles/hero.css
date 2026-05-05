@@ -1,0 +1,39 @@
+/* Hero section */
+.hero {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  color: white;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.hero-button {
+  background: white;
+  color: var(--primary);
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  font-weight: bold;
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.hero-button:hover {
+  transform: scale(1.05);
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+}

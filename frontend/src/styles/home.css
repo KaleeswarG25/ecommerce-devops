@@ -1,0 +1,46 @@
+/* Home page */
+.home {
+  min-height: 100vh;
+}
+
+.categories {
+  padding: 3rem 0;
+  background: var(--light);
+}
+
+.categories .container h2 {
+  margin-bottom: 2rem;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.category-card {
+  background: white;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.category-card:hover {
+  border-color: var(--primary);
+  box-shadow: var(--shadow-lg);
+}
+
+.category-card h3 {
+  margin-bottom: 0;
+}
+
+.featured {
+  padding: 3rem 0;
+}
+
+.featured .container h2 {
+  margin-bottom: 2rem;
+}
